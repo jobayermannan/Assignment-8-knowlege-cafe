@@ -5,10 +5,10 @@ import './singlecard.css'
 
 const Singlecard = (props) => {
     const {authorName,blogTitle,blogCoverImage,authorImage,readTime,publishDate}=props.card;
+    const handleAddToCart=props.handleAddToCart;
     return (
         <div>
-                  <div className="two-content-bars">
-        <div className="left-content-bar">
+       
           
       
       
@@ -28,7 +28,7 @@ const Singlecard = (props) => {
             </div>
             <div>
               <p>{readTime}</p>
-              <button><FontAwesomeIcon icon={faBookmark}/> </button>
+              <button onClick={ () => handleAddToCart(props.cards)}  className='btn-cart'> <FontAwesomeIcon icon={faBookmark}/> </button>
             </div>
           </div>
           <div className="card__body">
@@ -45,11 +45,8 @@ const Singlecard = (props) => {
 
       
         </div>
-        <div className="right-content-bar">
-         
-        </div>
-      </div>
-        </div>
+       
+     
     );
 };
 

@@ -1,13 +1,3 @@
-.two-content-bars {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-  }
-  .left-content-bar {
-    width: 70%;
-    padding-left: 20px;
-    background-color: #f1f1f1;
-  }
 
 
 
@@ -125,18 +115,7 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
 
  Media queries for responsive design
 
-@media only screen and (max-width: 768px) {
-    .two-content-bars {
-      flex-direction: column;
-    }
-  
-    .left-content-bar {
-      width: 100%;
-    }
-  
-    .right-content-bar {
-      width: 100%;
-      margin-top: 20px;
-      position: static;
-    }
-  }    
+ 
+  .btn-cart{
+    font-size: 16px;
+  }
