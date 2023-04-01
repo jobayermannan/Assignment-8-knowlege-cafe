@@ -1,0 +1,47 @@
+[
+    {
+        "id": "001",
+        "authorName": "Emily Smith",
+        "blogTitle": "The Benefits of Learning Python for Beginners",
+          "blogCoverImage": "https://source.unsplash.com/600x400/?computer",
+          "authorImage": "https://i.pravatar.cc/40?img=4",
+        "readTime": "6 min read",
+        "publishDate": "2023-04-02"
+      },
+      {
+        "id": "002",
+        "authorName": "Megan Brown",
+        "blogTitle": "The Future of Web Development: Trends to Watch",
+          "blogCoverImage": "https://source.unsplash.com/600x400/?programming",
+          "authorImage": "https://i.pravatar.cc/40?img=1",
+        "readTime": "8 min read",
+        "publishDate": "2023-04-04"
+      },
+      {
+        "id": "003",
+        "authorName": "David Lee",
+        "blogTitle": "How to Land a Job as a Front-End Developer",
+       "blogCoverImage": "https://source.unsplash.com/600x400/?tech",
+          "authorImage": "https://i.pravatar.cc/40?img=2",
+        "readTime": "10 min read",
+        "publishDate": "2023-04-05"
+      },
+      {
+        "id": "004",
+        "authorName": "David Lee",
+        "blogTitle": "How to Land a Job as a Front-End Developer",
+        "blogCoverImage": "https://source.unsplash.com/600x400/?hacking",
+          "authorImage": "https://i.pravatar.cc/40?img=3",
+        "readTime": "10 min read",
+        "publishDate": "2023-04-05"
+      },
+      {
+        "id": "005",
+        "authorName": "David Lee",
+        "blogTitle": "How to Land a Job as a Front-End Developer",
+         "blogCoverImage": "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+         "authorImage": "https://i.pravatar.cc/40?img=5",
+        "readTime": "10 min read",
+        "publishDate": "2023-04-05"
+      }
+    ]
